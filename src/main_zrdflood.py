@@ -36,6 +36,8 @@ from polygon_sides import sides_from_file
 from polygon_centerline import polygon_centerline
 
 
+ git remote set-url origin https://github.com/ZRDENGINEERING/ZRDFlood.git
+
 class ZRDFLOOD:
     def __init__(self, proj_name=None, proj_num=None):
         self.current_file = Path(__file__).resolve()
